@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.hobby-list {
+  list-style-type: numbers;
+}
+
+.list-form {
+  display: flex;
+  flex-direction: COLUMN;
+  justify-content: center;
+  align-items: center;
+}
+
+.last {
+  margin-bottom: 1rem;
 }
